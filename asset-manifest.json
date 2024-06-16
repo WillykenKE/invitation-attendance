@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/invitation-attendance/static/css/main.f855e6bc.css",
+    "main.js": "/invitation-attendance/static/js/main.19cb00ad.js",
+    "static/js/453.21be8fb1.chunk.js": "/invitation-attendance/static/js/453.21be8fb1.chunk.js",
+    "index.html": "/invitation-attendance/index.html",
+    "main.f855e6bc.css.map": "/invitation-attendance/static/css/main.f855e6bc.css.map",
+    "main.19cb00ad.js.map": "/invitation-attendance/static/js/main.19cb00ad.js.map",
+    "453.21be8fb1.chunk.js.map": "/invitation-attendance/static/js/453.21be8fb1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.19cb00ad.js"
+  ]
+}
