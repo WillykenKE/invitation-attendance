@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+.posts-container {
+  background-image: url('./images/party-cup.png'); /* Update the path accordingly */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(50px);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.posts-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2); /* Adjust the opacity for the fade effect */
+  z-index: -1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.posts-container h1, .posts-container button, .posts-container table {
+  position: relative;
+  z-index: 1;
+}body {
+  font-family: Arial, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar {
+  border-bottom: 1px solid #eaeaea;
 }
 
-.App-link {
-  color: #61dafb;
+.container-fluid {
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  margin-bottom: 20px;
 }
